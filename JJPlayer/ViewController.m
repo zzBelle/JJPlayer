@@ -6,6 +6,7 @@
 //  Copyright © 2018年 Belle. All rights reserved.
 //
 
+
 #import "ViewController.h"
 #import "JJRemotePlayer.h"
 
@@ -20,6 +21,8 @@
 @end
 
 @implementation ViewController
+//http://audio.xmcdn.com/group22/M0B/60/85/wKgJM1g1g0ShoPalAJiI5nj3-yY200.m4a
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,8 +40,8 @@
 
 - (void)update {
     
-    self.costTimeLabel.text = [NSString stringWithFormat:@"%02zd :%02zd",(int)[JJRemotePlayer shareInstance].currentTime / 60,(int)[JJRemotePlayer shareInstance].currentTime % 60 ];
-    self.totalTimeLabel.text = [NSString stringWithFormat:@"%02zd,%02zd",(int)[JJRemotePlayer shareInstance].duration / 60,(int)[JJRemotePlayer shareInstance].duration % 60];
+    self.costTimeLabel.text = [NSString stringWithFormat:@"%02zd:%02zd",(int)[JJRemotePlayer shareInstance].currentTime / 60,(int)[JJRemotePlayer shareInstance].currentTime % 60 ];
+    self.totalTimeLabel.text = [NSString stringWithFormat:@"%02zd:%02zd",(int)[JJRemotePlayer shareInstance].duration / 60,(int)[JJRemotePlayer shareInstance].duration % 60];
     
     self.loadSlider.value = [JJRemotePlayer shareInstance].loadProgress;
     self.playSlider.value = [JJRemotePlayer shareInstance].progress;
@@ -46,10 +49,11 @@
     NSLog(@"%zd",[JJRemotePlayer shareInstance].state);
     
 }
+
 - (IBAction)play:(id)sender {
     //换成你需要的
     NSURL *url = [NSURL URLWithString:@"http://fs.w.kugou.com/201802241102/68b34d7f3172f4220f667ae6f1195569/G002/M08/0F/11/ooYBAFT7QiGAEG4tAEggADragcw473.mp3"];
-   
+
     [[JJRemotePlayer shareInstance] playerWithUrl:url isCache:NO];
 }
 
