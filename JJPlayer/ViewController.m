@@ -47,9 +47,9 @@
     
 }
 - (IBAction)play:(id)sender {
-    ///< src="http://dl.stream.qqmusic.qq.com/C400001U0Xmc0PIlYu.m4a?vkey=BE058567551CE201420139243E17CAE404475A1E90EFF2BB385712CE9339502122A8937B11EE828BFD3BAF8920BED007553FCE7887B7499A&amp;guid=2795164836&amp;uin=0&amp;fromtag=66">
-    NSURL *url = [NSURL URLWithString:@"http://dl.stream.qqmusic.qq.com/C400001U0Xmc0PIlYu.m4a"];//http://audio.xmcdn.com/group22/M0B/60/85/wKgJM1g1g0ShoPalAJiI5nj3-yY200.m4a
-//    [[JJRemotePlayer shareInstance] playerWithUrl:url];
+    //换成你需要的
+    NSURL *url = [NSURL URLWithString:@"http://fs.w.kugou.com/201802241102/68b34d7f3172f4220f667ae6f1195569/G002/M08/0F/11/ooYBAFT7QiGAEG4tAEggADragcw473.mp3"];
+   
     [[JJRemotePlayer shareInstance] playerWithUrl:url isCache:NO];
 }
 
