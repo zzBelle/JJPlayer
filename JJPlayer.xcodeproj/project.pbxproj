@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9718834720201A74000B52DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718834620201A74000B52DB /* AppDelegate.m */; };
+		9718834A20201A74000B52DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718834920201A74000B52DB /* ViewController.m */; };
+		9718834D20201A74000B52DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9718834B20201A74000B52DB /* Main.storyboard */; };
+		9718834F20201A74000B52DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9718834E20201A74000B52DB /* Assets.xcassets */; };
+		9718835220201A74000B52DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9718835020201A74000B52DB /* LaunchScreen.storyboard */; };
+		9718835520201A74000B52DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718835420201A74000B52DB /* main.m */; };
+		9718835E20201C92000B52DB /* JJRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718835D20201C92000B52DB /* JJRemotePlayer.m */; };
+		9718836120246662000B52DB /* JJResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718836020246661000B52DB /* JJResourceLoader.m */; };
+		9718836420246813000B52DB /* NSURL+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718836320246813000B52DB /* NSURL+Custom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9718834220201A74000B52DB /* JJPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9718834520201A74000B52DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9718834620201A74000B52DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9718834820201A74000B52DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9718834920201A74000B52DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9718834C20201A74000B52DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9718834E20201A74000B52DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9718835120201A74000B52DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9718835320201A74000B52DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9718835420201A74000B52DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9718835C20201C92000B52DB /* JJRemotePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJRemotePlayer.h; sourceTree = "<group>"; };
+		9718835D20201C92000B52DB /* JJRemotePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJRemotePlayer.m; sourceTree = "<group>"; };
+		9718835F20246661000B52DB /* JJResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJResourceLoader.h; sourceTree = "<group>"; };
+		9718836020246661000B52DB /* JJResourceLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJResourceLoader.m; sourceTree = "<group>"; };
+		9718836220246813000B52DB /* NSURL+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+Custom.h"; sourceTree = "<group>"; };
+		9718836320246813000B52DB /* NSURL+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Custom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9718833F20201A74000B52DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9718833920201A74000B52DB = {
+			isa = PBXGroup;
+			children = (
+				9718834420201A74000B52DB /* JJPlayer */,
+				9718834320201A74000B52DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9718834320201A74000B52DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9718834220201A74000B52DB /* JJPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9718834420201A74000B52DB /* JJPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9718835B20201C7B000B52DB /* Classes */,
+				9718834520201A74000B52DB /* AppDelegate.h */,
+				9718834620201A74000B52DB /* AppDelegate.m */,
+				9718834820201A74000B52DB /* ViewController.h */,
+				9718834920201A74000B52DB /* ViewController.m */,
+				9718834B20201A74000B52DB /* Main.storyboard */,
+				9718834E20201A74000B52DB /* Assets.xcassets */,
+				9718835020201A74000B52DB /* LaunchScreen.storyboard */,
+				9718835320201A74000B52DB /* Info.plist */,
+				9718835420201A74000B52DB /* main.m */,
+			);
+			path = JJPlayer;
+			sourceTree = "<group>";
+		};
+		9718835B20201C7B000B52DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9718835F20246661000B52DB /* JJResourceLoader.h */,
+				9718836020246661000B52DB /* JJResourceLoader.m */,
+				9718835C20201C92000B52DB /* JJRemotePlayer.h */,
+				9718835D20201C92000B52DB /* JJRemotePlayer.m */,
+				9718836220246813000B52DB /* NSURL+Custom.h */,
+				9718836320246813000B52DB /* NSURL+Custom.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9718834120201A74000B52DB /* JJPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9718835820201A74000B52DB /* Build configuration list for PBXNativeTarget "JJPlayer" */;
+			buildPhases = (
+				9718833E20201A74000B52DB /* Sources */,
+				9718833F20201A74000B52DB /* Frameworks */,
+				9718834020201A74000B52DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJPlayer;
+			productName = JJPlayer;
+			productReference = 9718834220201A74000B52DB /* JJPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9718833A20201A74000B52DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Belle;
+				TargetAttributes = {
+					9718834120201A74000B52DB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9718833D20201A74000B52DB /* Build configuration list for PBXProject "JJPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9718833920201A74000B52DB;
+			productRefGroup = 9718834320201A74000B52DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9718834120201A74000B52DB /* JJPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9718834020201A74000B52DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9718835220201A74000B52DB /* LaunchScreen.storyboard in Resources */,
+				9718834F20201A74000B52DB /* Assets.xcassets in Resources */,
+				9718834D20201A74000B52DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9718833E20201A74000B52DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9718836120246662000B52DB /* JJResourceLoader.m in Sources */,
+				9718835E20201C92000B52DB /* JJRemotePlayer.m in Sources */,
+				9718834A20201A74000B52DB /* ViewController.m in Sources */,
+				9718835520201A74000B52DB /* main.m in Sources */,
+				9718834720201A74000B52DB /* AppDelegate.m in Sources */,
+				9718836420246813000B52DB /* NSURL+Custom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9718834B20201A74000B52DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9718834C20201A74000B52DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9718835020201A74000B52DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9718835120201A74000B52DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9718835620201A74000B52DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9718835720201A74000B52DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9718835920201A74000B52DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.JJPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9718835A20201A74000B52DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BelleLuckly.JJPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9718833D20201A74000B52DB /* Build configuration list for PBXProject "JJPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9718835620201A74000B52DB /* Debug */,
+				9718835720201A74000B52DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9718835820201A74000B52DB /* Build configuration list for PBXNativeTarget "JJPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9718835920201A74000B52DB /* Debug */,
+				9718835A20201A74000B52DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9718833A20201A74000B52DB /* Project object */;
+}
